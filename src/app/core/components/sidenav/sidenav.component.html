@@ -1,0 +1,28 @@
+<mat-drawer-container class="example-container">
+  <mat-drawer mode="side" opened>
+
+    <mat-nav-list>
+
+      <mat-list-item  routerLink="invoices">
+        <mat-icon mat-list-icon>
+          inventory_2
+         </mat-icon>
+        <div mat-line> Invoices </div>
+      </mat-list-item>
+
+    </mat-nav-list>
+
+
+  </mat-drawer>
+
+
+  <mat-drawer-content>
+
+      <router-outlet></router-outlet>
+
+  </mat-drawer-content>
+
+
+</mat-drawer-container>
+
+
